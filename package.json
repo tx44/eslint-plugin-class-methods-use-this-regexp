@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-class-methods-use-this-regexp",
+  "version": "0.0.1",
+  "description": "An enhanced version of the ESLint class-methods-use-this rule with RegExp exceptMethods option",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teryaew/eslint-plugin-class-methods-use-this-regexp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teryaew/eslint-plugin-class-methods-use-this-regexp/issues"
+  },
+  "homepage": "https://github.com/teryaew/eslint-plugin-class-methods-use-this-regexp",
+  "author": "Mitya Teryaew <mitya.teryaew@gmail.com> (https://github.com/teryaew)",
+  "license": "MIT",
+  "private": false
+}
