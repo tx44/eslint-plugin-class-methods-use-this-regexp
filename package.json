@@ -31,13 +31,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && babel src --out-dir dist",
     "lint": "eslint src/",
-    "patch": "release patch",
-    "minor": "release minor",
-    "major": "release major",
-    "prepublish": "npm run build",
-    "prebuild": "npm run lint"
+    "prebuild": "npm run lint",
+    "build": "rm -rf dist && babel src --out-dir dist",
+    "release-patch": "npm version patch -m 'chore(*): patch version'",
+    "release-minor": "npm version minor -m 'chore(*): minor version'",
+    "release-major": "npm version major -m 'chore(*): major version'",
+    "postversion": "git push origin master && git push --tags && npm publish",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
