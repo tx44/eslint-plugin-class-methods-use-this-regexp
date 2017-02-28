@@ -1,8 +1,8 @@
-const classMethodsUseThis = require('eslint/lib/rules/class-methods-use-this');
+import classMethodsUseThis from 'eslint/lib/rules/class-methods-use-this';
 
 module.exports = {
     meta: classMethodsUseThis.meta,
-    create: function (context) {
+    create: (context) => {
         const config = context.options[0] ? Object.assign({}, context.options[0]) : {};
         const configExceptMethods = new Set(config.exceptMethods);
 
