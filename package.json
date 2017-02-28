@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-class-methods-use-this-regexp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An enhanced version of the ESLint class-methods-use-this rule with RegExp exceptMethods option",
   "keywords": [
     "eslint",
