@@ -1,5 +1,17 @@
 # eslint-plugin-class-methods-use-this-regexp
 
+[![build status][travis-image]][travis-url]
+[![test coverage][coveralls-image]][coveralls-url]
+[![npm][npm-image]][npm-url]
+
+[travis-image]: https://img.shields.io/travis/teryaew/eslint-plugin-class-methods-use-this-regexp/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/teryaew/eslint-plugin-class-methods-use-this-regexp
+[coveralls-image]: https://img.shields.io/coveralls/teryaew/eslint-plugin-class-methods-use-this-regexp/master.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/github/teryaew/eslint-plugin-class-methods-use-this-regexp?branch=master
+[npm-image]: https://img.shields.io/npm/v/eslint-plugin-class-methods-use-this-regexp.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/eslint-plugin-class-methods-use-this-regexp
+
+
 An enhanced version of the [ESLint class-methods-use-this rule](http://eslint.org/docs/rules/class-methods-use-this) with RegExp exceptMethods option.
 
 ## Installation
