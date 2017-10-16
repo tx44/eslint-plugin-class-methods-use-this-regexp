@@ -1,0 +1,9 @@
+extends: ['@commitlint/config-angular']
+rules:
+  scope-empty:
+    - 2
+    - never
+  subject-tense:
+    - 2
+    - always
+    - ['present-imperative']
