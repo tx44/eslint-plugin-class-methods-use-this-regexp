@@ -1,12 +1,13 @@
 import classMethodsUseThis from 'eslint/lib/rules/class-methods-use-this';
 
-module.exports = {
+export default {
     meta: classMethodsUseThis.meta,
-    create: (context) => {
+    create(context) {
         const config = context.options[0] ? Object.assign({}, context.options[0]) : {};
-        const configExceptMethods = new Set(config.exceptMethods);
+        const configExceptMethods = new Set(config.exceptMethods || []);
 
-        let proxyContext = Object.create(context);
+        let proxyContext = Object.assign({}, context);
+
         proxyContext.report = function report(...args) {
             const node = args.length === 1 ? args[0].node : args[0];
             const methodName = node.parent.key.name;

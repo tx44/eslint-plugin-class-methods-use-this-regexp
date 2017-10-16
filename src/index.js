@@ -1,5 +1,6 @@
 import classMethodsUseThis from './rules/class-methods-use-this';
 
+// Use CommonJS default export so ESLint can find the rule
 module.exports = {
     rules: {
         'class-methods-use-this': classMethodsUseThis
