@@ -1,5 +1,7 @@
 # eslint-plugin-class-methods-use-this-regexp
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/teryaew/eslint-plugin-class-methods-use-this-regexp.svg)](https://greenkeeper.io/)
+
 [![build status][travis-image]][travis-url]
 [![test coverage][coveralls-image]][coveralls-url]
 [![npm][npm-image]][npm-url]
