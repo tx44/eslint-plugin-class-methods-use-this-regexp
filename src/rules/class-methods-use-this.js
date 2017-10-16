@@ -4,7 +4,7 @@ export default {
     meta: classMethodsUseThis.meta,
     create(context) {
         const config = context.options[0] ? Object.assign({}, context.options[0]) : {};
-        const configExceptMethods = new Set(config.exceptMethods || []);
+        const configExceptMethods = config.exceptMethods || [];
 
         let proxyContext = Object.assign({}, context);
 
@@ -12,10 +12,8 @@ export default {
             const node = args.length === 1 ? args[0].node : args[0];
             const methodName = node.parent.key.name;
 
-            for (let item of configExceptMethods.keys()) {
-                if (new RegExp(item).test(methodName)) {
-                    return;
-                }
+            if (configExceptMethods.some(item => new RegExp(item).test(methodName))) {
+                return;
             }
 
             context.report(...args);
