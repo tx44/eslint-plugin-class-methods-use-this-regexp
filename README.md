@@ -1,15 +1,16 @@
 # eslint-plugin-class-methods-use-this-regexp
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/teryaew/eslint-plugin-class-methods-use-this-regexp.svg)](https://greenkeeper.io/)
-
-[![build status][travis-image]][travis-url]
-[![test coverage][coveralls-image]][coveralls-url]
+[![travis][travis-image]][travis-url]
+[![coveralls][coveralls-image]][coveralls-url]
+[![greenkeeper][greenkeeper-image]][greenkeeper-url]
 [![npm][npm-image]][npm-url]
 
 [travis-image]: https://img.shields.io/travis/teryaew/eslint-plugin-class-methods-use-this-regexp/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/teryaew/eslint-plugin-class-methods-use-this-regexp
 [coveralls-image]: https://img.shields.io/coveralls/teryaew/eslint-plugin-class-methods-use-this-regexp/master.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/github/teryaew/eslint-plugin-class-methods-use-this-regexp?branch=master
+[greenkeeper-image]: https://img.shields.io/badge/dependencies-monitored-green.svg?style=flat-square
+[greenkeeper-url]: https://greenkeeper.io/
 [npm-image]: https://img.shields.io/npm/v/eslint-plugin-class-methods-use-this-regexp.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/eslint-plugin-class-methods-use-this-regexp
 
