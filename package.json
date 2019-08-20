@@ -12,7 +12,7 @@
     "lib": "dist/"
   },
   "dependencies": {
-    "eslint": "^4.9.0"
+    "eslint": "^6.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^5.1.1",
